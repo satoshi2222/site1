@@ -1,0 +1,109 @@
+body			    	{ font-family:
+                    	'Meiryo','Hiragino Kaku Gothic ProN',
+                    	'MS P Gothic','Helvetica','Verdana',
+                    	'Arial',sans-serif;
+                    	font-size:15px; line-height:1;
+						color:#333; }
+#cover					{ width:1330px;margin:0 auto; }
+#header             	{ height: 60px; font-weight:550;
+						 width:1330px;
+						 background-color:#F2F2F2;position:fixed; 
+						 box-shadow: 0 3px 6px rgba(0,0,0,0.2);z-index:100;}
+#header1				{ float:left; }
+#header1 img			{ padding-left:10px;}
+#header2				{text-align:right;padding-top:5px; }
+#header2>a	          	{ display: inline-block;margin-left: 35px;}
+#header2>a:last-child { padding-right: 20px; }
+#hrader2:hover			{ background-color: rgb(201, 201, 201);} 
+
+
+.img					{ width: 1280px; margin: 0 auto;padding-top: 60px; }
+
+
+/* --------------------- サイズ設定 ------------------------------ */
+
+#wrapper 				{ width: 1280px;margin: 0 auto;}
+
+/* --------------------- tablecell用div--------------------------- */
+
+#onlinemaster			{ display:table;}
+
+/*---------------------- ここからleftnav----------------------------- */
+
+.leftmaster				{ display:table-cell;vertical-align:top;}
+.leftnav1				{ margin-top:20px;margin-bottom:20px; }
+.leftnav2				{ margin-bottom:20px; }
+.leftnav img:hover		{ opacity: 0.5; }
+
+#keyword				{  }
+#contents				{ padding-top:20px; }
+.lefttext				{ font-size:18px;font-weight:bold;
+						width:250px;height:40px;
+						border-bottom:1px solid black;vertical-align:middle;}
+
+#text>input				{ width:240px; height:30px; }
+
+#submit                 { margin-top: 10px;}
+#submit>input			{ width:240px; height:30px;margin-bottom:40px;
+                        color:white;background-color:#6e6c6c;
+                        }
+
+#category				{ margin-bottom:50px; }                      
+#category li:hover		{ background-color:#f1f1f1; }
+#category li			{ width: 250px; height: 50px;font-size:18px;
+                         border-bottom: 2px solid #cacaca;
+                         padding-top:18px;}
+
+#color					{ padding-top:10px; }
+#colorbox				{ padding-top:20px; }
+
+#sns					{ margin-top: 30px; }
+#sns>div				{ padding-top:20px; }
+
+/* -----------------------ここからright------------------------ */
+
+#rightmaster				{ display:table-cell;vertical-align:top;
+							 padding-left: 40px; }
+
+#onlinesub					{ padding-top:20px; }
+#onlinesub div				{ display:table-cell;padding-left: 30px;vertical-align: top;}
+#onlinesub div:hover		{ opacity: 0.5; }
+
+
+.item>div					{ padding-right:27px; }
+.item>div:first-child		{ padding-left:30px; }
+
+.text						{ font-size:36px;margin-left:30px;margin-bottom: 15px;}
+
+.more						{ float:left;width:450px;height:50px;color:white; 
+							 background-color:#6e6c6c;text-align: center;
+							 text-align: center; font-weight:bold;
+							 margin-left: 300px;margin-top: 30px;
+							padding-top: 18px;border-radius: 5px;}
+#lastmore					{ margin-bottom:70px; }
+
+.item h1 ,.item h2			{ font-size:15px;font-weight: normal;
+							  line-height:15px;padding-top: 5px; }
+.item h2					{ color:#f1abe6;}
+
+#new						{ margin-top: 50px; margin-bottom: 15px;}
+#newitem>div				{ display:table-cell; }
+
+#rank						{ margin-top: 80px; }
+#rankitem>div				{ display:table-cell; }
+
+#pickup						{ margin-top: 80px; }
+#pickupitem>div				{ display:table-cell; }
+
+#pagetop>div				{ text-align: center;margin: 0 auto;margin-top: 30px; }
+
+
+#footer             		{ font-size:16px;font-weight:bold;height: 100px;background-color:#F2F2F2;
+							margin-top:50px;position:relative;margin-left:auto;margin-right:auto;
+							width:1330px;}
+.col>ul         			{ display:table;}
+.col1 li:first-child 		{ padding-left:100px; }
+.col1 li            		{ display:table-cell;padding-left:40px;padding-top:30px; }
+
+#copy						{ font-size:13px; text-align:left;padding-top:20px;margin-left: 98px; }
+#footerlogo					{ text-align:right;position:absolute; left:85%;top:30px;z-index:50;}

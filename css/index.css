@@ -1,0 +1,56 @@
+#top                   { margin: 0 auto;width: 1000px;}
+
+
+#contents img          { float: left;margin-top: 30px;margin-left: 25px; }
+
+
+.title p            { width: 1000px;margin:0 auto;text-align: center;}
+.title>p             { font-size: 36px;margin-top: 100px; padding-bottom: 20px;}
+.title>a             { font-size:18px;color:rgb(106, 137, 240);
+                         font-weight: bold; }
+
+
+#news                  { margin-top: 20px;}
+#news>div              { float: left;}
+#news img:hover		   { opacity: 0.5; }
+.news1 ,.news3         { margin-left: 100px; }
+.news2 ,.news4         { margin-left: 10px; }
+.news3 ,.news4         { margin-top: 10px; }
+
+
+
+#pickup1                { margin-top: 20px;padding-left: 100px; }
+
+#pickup2               { margin-top: 100px; margin-bottom:100px;}
+#pickup2>div           { float: left; }
+.pick1 ,.pick3         { margin-left: 40px; }
+.pick2 ,.pick4         { margin-left: 20px; }
+.pick3 ,.pick4         { margin-top: 40px; }
+#pickup1 img:hover     { opacity: 0.5; }
+#pickup2 img:hover     { opacity: 0.5; }
+
+
+
+/* --------------------------------mask effect-------------------------------------- */
+
+#contents               { position: relative; }
+
+.mask1                  { position: absolute;background-color:	rgba(0,0,0,0.4);
+                        width: 300px;height: 300px; margin-top: 30px;margin-left: 25px;
+                        opacity:0; z-index:10 ;}
+
+.mask2                  { position: absolute;background-color:	rgba(0,0,0,0.4);
+                        width: 300px;height: 300px; margin-top: 30px;margin-left: 350px;
+                        opacity:0; z-index:10 ;}
+
+.mask3                  { position: absolute;background-color:	rgba(0,0,0,0.4);
+                        width: 300px;height: 300px; margin-top: 30px;margin-left: 675px;
+                        opacity:0; z-index:10 ;}
+                        
+.maskmaster:hover      { opacity: 1; }
+.caption               {font-size:13px;letter-spacing:3px;line-height:30px;text-align: center;
+                        padding-top:100px;color:#fff;}
+
+
+        
+

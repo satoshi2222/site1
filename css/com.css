@@ -1,0 +1,23 @@
+.master				{ width: 1000px; margin: 0 auto; }
+body			    { font-family:
+                    'Meiryo','Hiragino Kaku Gothic ProN',
+                    'MS P Gothic','Helvetica','Verdana',
+                    'Arial',sans-serif;
+                    font-size:15px; line-height:1;
+                    color:#333; }
+
+#header             { display: table;height: 80px; font-weight:bold;}
+#header>div         { display: table-cell;vertical-align: middle;}
+#header1 img		{ padding-left:10px; }
+#header2            { text-align: right; }
+#header2>a          { display: inline-block;margin-left: 35px;}
+#header2>a:last-child { padding-right: 20px; }
+#header2>a:hover    { color: #ee8ea0;}
+
+
+#footer             { height: 50px;border-top: 1px solid #ee8ea0 ;
+                    display: table; margin-top: 40px;}
+
+.col1               { display: table-cell;vertical-align: middle; }
+.col1 li            { display: inline-block;margin-left: 20px; }
+.col1 li:last-child { margin-left: 280px; }
